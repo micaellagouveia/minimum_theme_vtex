@@ -7,7 +7,7 @@
       "responsive-layout.mobile#mobile",
       "tab-layout#home", // Configurações estão em tab-layout.jsonc,
       "modal-trigger#first",
-      //"list-context.product-list"
+      "list-context.product-list",
       "stack-layout#cta"
     ]
   },
@@ -129,11 +129,12 @@
 
 
   // list-context.product-list ------------------------------------------------------------------------
-/*
+
   "list-context.product-list": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout"]
   },
+
   "product-summary.shelf": {
     "children": [
       "modal-trigger#quickview",
@@ -152,8 +153,7 @@
       "product-summary-quantity",
       "add-to-cart-button"
     ]
-  }
-  */
+  }, 
 
   //stack_layout ------------------------------------------------------------------------------
 
